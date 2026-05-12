@@ -1,5 +1,5 @@
 import React from 'react';
-import "Perfil.css";
+import "./Perfil.css";
 
 const usuarioLogueado = {
   nombre: "Franco Urquizo",

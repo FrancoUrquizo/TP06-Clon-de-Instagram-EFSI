@@ -1,0 +1,100 @@
+/* Stories.css */
+
+.stories-section {
+  padding: 24px 0 16px 0;
+  width: 100%;
+  background-color: #05050f; /* Fondo oscuro coherente con el resto del TP */
+}
+
+.stories-header h3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-left: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stories-container {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto; /* Permite el scroll horizontal si hay muchos gatos */
+  padding: 0 15px 10px 15px;
+  scrollbar-width: none; /* Oculta el scrollbar en Firefox */
+}
+
+/* Oculta el scrollbar en Chrome, Safari y Edge */
+.stories-container::-webkit-scrollbar {
+  display: none;
+}
+
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 75px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.story-item:hover {
+  transform: scale(1.05);
+}
+
+/* El anillo con el gradiente de Instagram */
+.story-ring {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  padding: 2.5px; /* Espacio para que se vea el gradiente */
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  border-radius: 50%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para tu propia historia (Your Story) - Anillo gris oscuro */
+.story-ring.my-story {
+  background: #2e303a; 
+}
+
+.story-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  
+  border: 3px solid #05050f; 
+}
+
+.story-username {
+  color: #9ca3af;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.add-story-plus {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  background-color: #0095f6; 
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #05050f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IoMdSearch } from "react-icons/io";
-import "BarradeBúsqueda.css"
+import "./BarradeBúsqueda.css"
 
 function BarradeBúsqueda() {
   const [query, setQuery] = useState("");

@@ -1,29 +1,24 @@
-/* Post.css */
-
 .post-card {
-  background-color: #1a1b26; /* Color de fondo de la tarjeta según el diseño dark */
-  border-radius: 12px;
+  background-color: #1a1b26; /* Color de fondo según diseño dark */
+  border-radius: 16px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  border: 1px solid #2e303a;
   transition: transform 0.2s ease;
-  cursor: pointer;
-  border: 1px solid #2e303a; /* Borde sutil para separar del fondo */
 }
 
 .post-card:hover {
-  transform: translateY(-4px); /* Efecto visual al pasar el mouse */
+  transform: scale(1.02);
 }
 
 .post-image {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Mantiene las fotos cuadradas como en Instagram */
+  aspect-ratio: 4 / 5; /* Formato Instagram vertical */
   object-fit: cover;
   display: block;
 }
 
 .post-footer {
-  padding: 12px;
+  padding: 12px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,35 +27,39 @@
 .post-user-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .avatar-mini {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #aa3bff; /* Color de acento definido en tu index.css */
+  border: 1.5px solid #aa3bff; /* Color de acento de tu proyecto */
 }
 
-.post-user-info span {
-  font-size: 14px;
+.post-username {
+  font-size: 13px;
   font-weight: 500;
-  color: #f3f4f6; /* Color de texto claro para modo oscuro */
+  color: #f3f4f6;
 }
 
 .post-actions {
   display: flex;
   gap: 12px;
-  color: #9ca3af;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #f3f4f6;
   font-size: 18px;
-}
-
-.post-actions svg {
   cursor: pointer;
-  transition: color 0.2s;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
-.post-actions svg:hover {
-  color: #aa3bff; /* Ilumina los iconos al pasar el mouse */
+.liked-icon {
+  color: #ff3040; /* Rojo Instagram para el Like activo */
 }
