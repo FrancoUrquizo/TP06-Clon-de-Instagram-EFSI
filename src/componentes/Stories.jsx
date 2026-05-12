@@ -16,10 +16,7 @@ function Stories() {
 
   return (
     <div className="stories-section">
-      {/* Título de la sección según el estilo de Figma */}
-      <div className="stories-header">
-        <h3>STORIES</h3>
-      </div>
+     
 
       <div className="stories-container">
         {/* Tu propia historia con el anillo gris y el botón "+" azul */}

@@ -4,6 +4,7 @@
   overflow: hidden;
   border: 1px solid #2e303a;
   transition: transform 0.2s ease;
+  width: 106%;
 }
 
 .post-card:hover {
