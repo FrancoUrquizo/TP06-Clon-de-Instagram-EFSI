@@ -4,6 +4,7 @@ import { FaPaperPlane } from "react-icons/fa";
 import { MdOutlineSettings } from "react-icons/md";
 import { MdPhotoCamera } from "react-icons/md";
 import BarradeBúsqueda from "./BarradeBúsqueda";
+import "Header.css";
 function Header() {
   return (
     <header className="main-header">
