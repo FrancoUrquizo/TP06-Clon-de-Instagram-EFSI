@@ -3,7 +3,7 @@
 .sidebar {
   width: 280px;
   height: 100vh;
-  background-color: #05050f; /* El color oscuro base de tu diseño */
+  background: #100A2C!important; /* El color oscuro base de tu diseño */
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
@@ -19,6 +19,7 @@
   align-items: center;
   margin-bottom: 40px;
   text-align: center;
+  background: #100A2C;
 }
 
 .profile-avatar-container {
@@ -71,7 +72,7 @@
 
 .stat-item {
   flex: 1;
-  background-color: #1a1b26; /* Fondo de las cajitas según la imagen */
+  background-color:#192648 !important; /* Fondo de las cajitas según la imagen */
   padding: 10px 5px;
   border-radius: 10px;
   font-size: 13px;
@@ -117,7 +118,7 @@
 }
 
 .nav-item.active {
-  background-color: #1a1b26; /* Resalta la pestaña activa */
+  background-color: #192648; /* Resalta la pestaña activa */
   color: #ffffff;
   font-weight: 700;
   border-left: 4px solid #aa3bff; /* Color de acento de tu proyecto */

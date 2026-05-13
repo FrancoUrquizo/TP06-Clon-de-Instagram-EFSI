@@ -1,12 +1,12 @@
 /* Header.css */
 
 .main-header {
-  background-color: #05050f; /* Azul muy oscuro casi negro de la imagen */
+  background-color: #100A2C; 
   padding: 12px 24px;
   border-bottom: 1px solid #1a1b26;
   color: #ffffff;
   display: flex;
-  justify-content: center; /* Centra el contenedor principal */
+  justify-content: center; 
   width: 100%;
   box-sizing: border-box;
 }
@@ -16,15 +16,15 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px; /* Limita el ancho para que no se estire demasiado */
+  max-width: 1200px; 
 }
 
-/* Lado Izquierdo: Logo */
+
 .header-logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'InstaFont', sans-serif; /* O la que estés usando para el texto */
+  font-family: 'InstaFont', sans-serif; 
   font-size: 22px;
   font-weight: bold;
 }
@@ -33,7 +33,7 @@
   font-size: 28px;
 }
 
-/* Lado Derecho: Navegación e Iconos */
+
 .header-nav {
   display: flex;
   align-items: center;

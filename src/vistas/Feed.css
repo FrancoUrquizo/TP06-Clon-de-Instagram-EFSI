@@ -2,7 +2,7 @@
 
 .feed-container {
   padding: 20px;
-  background-color: #05050f; /* Fondo oscuro coherente con el Header */
+  background-color: #100A2C !important; /* Fondo oscuro coherente con el Header */
   min-height: 100vh;
 }
 

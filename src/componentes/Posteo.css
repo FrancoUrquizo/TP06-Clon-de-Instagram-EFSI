@@ -1,5 +1,5 @@
 .post-card {
-  background-color: #1a1b26; /* Color de fondo según diseño dark */
+  background-color: #100A2C; 
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid #2e303a;
@@ -28,7 +28,7 @@
 .post-user-info {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
 }
 
 .avatar-mini {
@@ -47,7 +47,8 @@
 
 .post-actions {
   display: flex;
-  gap: 12px;
+  gap: 7px;
+  width: 25%;
 }
 
 .action-btn {

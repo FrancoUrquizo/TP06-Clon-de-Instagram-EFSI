@@ -248,6 +248,7 @@
 
 /* Área de Contenido Principal */
 .content-area {
+  background: #100A2C;
   flex: 1;
   overflow-y: auto; /* Permite scroll solo en el feed/perfil */
   padding: 20px;

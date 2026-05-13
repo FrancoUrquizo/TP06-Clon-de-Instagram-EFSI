@@ -17,7 +17,7 @@ function Header() {
 
        <BarradeBúsqueda/>
 
-        {/* Lado Derecho: Iconos y Botón */}
+      
         <div className="header-nav">
           <button className="nav-icon-btn"><MdOutlineSettings /></button>
           <button className="nav-icon-btn"><MdPhotoCamera /></button>
